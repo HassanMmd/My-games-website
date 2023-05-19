@@ -1,0 +1,90 @@
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 35px;
+    gap: 80px;
+    padding: 40px;
+}
+
+.title-description{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+
+.title-companyName{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.company-img {
+    border-radius: 10%;
+    width: auto;
+    height: 350px;
+}
+
+.company-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10%;
+    padding: 40px;
+}
+
+.company-description{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.games{
+    width: 220px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0055cd;
+    color: #1F2937;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+.games:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.game-img{
+    border-radius: 5%;
+    width: 220px;
+    height: auto;
+}
+
+.games-video{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d4d5;
+    height: 400px;
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.aboutus>div {
+    width: 1000px;
+}

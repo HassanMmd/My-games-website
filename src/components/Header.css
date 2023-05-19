@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+}
+
+.Compant-name-logo {
+    display: flex;
+    padding: 10px 10px 10px 40px;
+    align-items: center;
+    gap: 20px;
+}
+
+.company-name{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.logo {
+    width: auto ;
+    height: 40px;
+    border-radius: 20%;
+}
